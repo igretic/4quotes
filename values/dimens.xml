@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="quote_size">20sp</dimen>
+    <dimen name="quote_padding">20dp</dimen>
+    <dimen name="acn_padding">10dp</dimen>
+    <dimen name="title_size">46sp</dimen>
+    <dimen name="swipe_size">20sp</dimen>
+    <dimen name="acn_size">30sp</dimen>
+    <dimen name="created_text">20sp</dimen>
+    <dimen name="margin_mypic">10dp</dimen>
+    <dimen name="padding_mypic">20dp</dimen>
+    <dimen name="padd_ty_side">40dp</dimen>
+    <dimen name="padd_ty_top">10dp</dimen>
+    <dimen name="text_ty">15dp</dimen>
+    <dimen name="scrollview_m_top">3dp</dimen>
+    <dimen name="scrollview_p_bot">20dp</dimen>
+</resources>

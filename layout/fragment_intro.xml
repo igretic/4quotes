@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <ImageView
+        style="@style/title_img"
+        android:src="@drawable/quotation_mark"
+        android:padding="@dimen/quote_padding"/>
+    <TextView
+        style="@style/title_text"
+        android:textSize="@dimen/title_size"
+        android:text="@string/title_text" />
+    <TextView
+        style="@style/swipe_text"
+        android:text="@string/swipe"
+        android:textSize="@dimen/swipe_size"
+         />
+</LinearLayout>

@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TextView
+        android:id="@+id/acn"
+        style="@style/acn_title"
+        android:textSize="@dimen/acn_size"
+        android:padding="@dimen/acn_padding"
+        android:text="@string/title" />
+    <RelativeLayout
+        android:id="@+id/me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/acn"
+        android:paddingBottom="@dimen/acn_padding"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/created"
+            style="@style/created_by"
+            android:textSize="@dimen/created_text"
+            android:text="@string/about" />
+        <ImageButton
+            android:id="@+id/profile_pic"
+            style="@style/my_pic"
+            android:layout_marginTop="@dimen/margin_mypic"
+            android:paddingLeft="@dimen/padding_mypic"
+            android:src="@drawable/profile_pic3"
+            android:layout_toRightOf="@id/created"
+            android:onClick="myface"/>
+    </RelativeLayout>
+    <View
+        style="@style/view"
+        android:layout_below="@id/me"
+        android:background="@drawable/horizontal_line" >
+    </View>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/me"
+        android:layout_marginTop="@dimen/scrollview_m_top"
+        android:paddingBottom="@dimen/scrollview_p_bot"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/thankyou"
+                android:id="@+id/thankyou"
+                android:paddingLeft="@dimen/padd_ty_side"
+                android:paddingRight="@dimen/padd_ty_side"
+                android:paddingTop="@dimen/padd_ty_top"
+                android:textSize="@dimen/text_ty"
+                android:text="@string/thankyou" />
+            <Button
+                    style="@style/Button"
+                    android:text="@string/hug"
+                    android:onClick="hugs" />
+            <TextView
+                style="@style/thankyou"
+                android:id="@+id/thankyou2"
+                android:paddingLeft="@dimen/padd_ty_side"
+                android:paddingRight="@dimen/padd_ty_side"
+                android:textSize="@dimen/text_ty"
+                android:text="@string/thankyou2" />
+            <View
+                style="@style/Divider"/>
+            <TextView
+                style="@style/copyr"
+                android:id="@+id/copyright"
+                android:paddingLeft="@dimen/padd_ty_side"
+                android:paddingRight="@dimen/padd_ty_side"
+                android:textSize="@dimen/text_ty"
+                android:text="@string/copyright"
+                />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

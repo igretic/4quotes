@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">swiping_quotes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_text">4quotes</string>
+    <string name="swipe">Swipe left!</string>
+    <string name="quote1">Even a clock that does not work is right twice a day.</string>
+    <string name="quote2">Look after the pennies and the dollars look after themselves.</string>
+    <string name="quote3">The early bird gets the worm, but the second mouse gets the cheese.</string>
+    <string name="quote4">A short pencil is better than a long memory.</string>
+    <string name="about">Created by\nIvan Gretić</string>
+    <string name="thankyou">First off, I would like to thank my friend Kristijan who shared a Udacity link which appeared on my
+    Facebook feed. You would not be able to read this without him.\n\nA big thank you to Catherine and Kunal for building a
+        course for us and explaining the basics!\n\nI have to mention my colleague Anna who made a great \"Need a Hug\" application,
+        and inspired me to make something similar. You should check it out on the forums:\n</string>
+    <string name="hug">Need a hug?</string>
+    <string name="title">Acknowledgements</string>
+    <string name="thankyou2">\nI would also like to express my graditude to other people who posted their practice projects and
+        shared tipswith others.\n\nLast, but not least, I truly appreciate the time and effort of our Forum Mentors they spent
+        on giving a truly constructive feedback.</string>
+    <string name="copyright">Icons used under CC BY 3.0\n\nhttp://www.flaticon.com/authors/gregor-cresnar\n\nhttp://www.flaticon.com/authors/freepik</string>
+</resources>
+
