@@ -16,8 +16,10 @@
     <string name="hug">Need a hug?</string>
     <string name="title">Acknowledgements</string>
     <string name="thankyou2">\nI would also like to express my graditude to other people who posted their practice projects and
-        shared tipswith others.\n\nLast, but not least, I truly appreciate the time and effort of our Forum Mentors they spent
+        shared tips with others.\n\nLast, but not least, I truly appreciate the time and effort of our Forum Mentors they spent
         on giving a truly constructive feedback.</string>
-    <string name="copyright">Icons used under CC BY 3.0\n\nhttp://www.flaticon.com/authors/gregor-cresnar\n\nhttp://www.flaticon.com/authors/freepik</string>
+    <string name="copyright">Icons used under CC BY 3.0\n\nhttp://www.flaticon.com/authors/gregor-cresnar\n\n
+        http://www.flaticon.com/authors/freepik\n\nhttp://www.flaticon.com/authors/situ-herrera
+    </string>
 </resources>
 
